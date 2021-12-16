@@ -140,6 +140,21 @@
     opacity: 1;
     pointer-events: auto;
 }
+/* --- styling  calculator icon --- */
+.calculator {
+    position: fixed;
+    right: 48px;
+    bottom: 120px;
+    z-index: 999;
+}
+.calculator a {
+    color: #ffc700;
+    cursor: pointer;
+}
+.calculator a svg {
+    width: 45px;
+    height: 45px;
+}
 
 
 .home {
